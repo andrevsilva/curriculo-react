@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:ital,wght@1,200&display=swap');
+
+body{
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+}
+#contrucao{
+    display: none;
+}
+.header{
+    background-color: #000120;
+    width: 100%;
+    margin-top: 0;
+    height: 80px;
+    display: block;
+    position: fixed;
+}
+.menu{
+    list-style: none;
+    margin: 0 auto;
+    display: block;
+    padding-top: 25px;
+    box-sizing: initial;
+    text-align: center;
+}
+a:hover{
+    color:  #FFF !important;
+    text-transform: none !important;
+    text-decoration: none  !important;
+}
+.resetar{
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    color: rgb(230, 220, 220);
+    display: inline;
+    margin-right: 50px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+.menu li {
+    font-size: 18px;
+    color: rgb(230, 220, 220);
+    display: inline;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.redesSociais{
+    right: 0;
+    margin-top: 400px;
+    display: block;
+    position: fixed;
+}
+.redesSociais a{
+    display: block !important;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+.title{
+    /*width: 700px;*/
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    background-image: url(a61a86d28e675def9a9e4d6b3e28aca6.jpg);
+    background-size: contain;
+}
+.title h1{
+    color: #FFF;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 80px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+}
+.efeitoMq{
+    display: block;
+    text-align: center;
+}
+.title span{
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+}
+.esconder{
+    display: none;
+}
+.megaman{
+    width: 85px;
+    height: 85px;
+}
+.resumo{
+    display: flex;
+    margin-top: 85px;
+}
+.icons{
+    padding-top: 25px;
+    display: block;
+}
+.resumo svg{
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.resumo img{
+    border-radius: 300px;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
+}
+.resumo p{
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+    width: 90%;
+    flex: row;
+    margin-left: 50px;
+    font-family: 'Lexend', sans-serif
+}
+.experiencias{
+    margin-top: 100px;
+}
+.linha{
+    width: 85%;
+    height: 18px;
+    background-color: #000120 ;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.experiencias h2{
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 48px;
+}
+.espacoSistemas{
+    display: flex;
+    margin-left: 50px;
+}
+.espacoSistemas p{
+    width: 70%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 50px;
+}
+.espaco{
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+}
+.urb9{
+    margin-left: 50px;
+    display: flex;
+}
+.urb9 p{
+    width: 70%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 75px;
+}
+.logoUrb9{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.urb9 ul{
+    padding-left: 18px;
+}
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: #000120;
+    padding: 50px;
+    display: flex;
+}
+.redesSociaismob{
+    display: none;
+}
+.celular,
+.email,
+.contratacao{
+    display: block;
+    text-align: left;
+    width: 500px;
+    margin-bottom: 15px;
+    line-height: 32px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    color: #FFF;
+}
+.footer .frase{
+    width: 550px;
+    margin-left: 40%;
+    line-height: 32px;
+    font-family: 'Dancing Script', cursive;
+    color: #FFF;
+    font-size: 30px;
+    line-height: 50px;
+}
+.feitopor{
+    background-color: #000120;
+    height: 25px;
+}
+small{
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+/* Minha História */
+.minhaHistoria{
+    padding: 25px 200px;
+}
+.minhaHistoria p{
+    line-height: 30px;
+    display: block;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+/* Skills */
+.skills{
+    flex-direction: column;
+    display: flex;
+}
+.maisskills{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.maisskills h2{
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+.maisskills span{
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 10px;
+    display: block;
+ }
+ .ferramentasageis{
+     margin-top: 50px;
+     margin-bottom: 80px;
+ }
+ .ferramentasageis img{
+    height: 170px;
+    padding: 20px;
+}
+.logos-skills{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.logos-skills:hover{
+    cursor: pointer;
+}
+.skills img{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+.skills button{
+    background: transparent;
+    border: none;
+}
+.skills button:hover{
+    background: none;
+}
+.modal-content{
+    background-color: rgb(0, 0, 0, 0.8) !important;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    
+}
+.modal-header{
+    border: none;
+    border-bottom: none !important;
+}
+.modal-header img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-header h5{
+    font-size: 40px;
+}
+.modal-body{
+    
+    border: none;
+    border-bottom: none !important;
+}
+.modal-footer{
+    border-top: none !important;
+}
+.apresSkills{
+    color: #FFF;
+    font-size: 32px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-family: 'Lexend', sans-serif;
+    line-height: 34px;
+}
+
+@media all and (max-width: 960px){
+    .title{
+        height: 500px;
+        background-size: cover;
+        padding-top: 100px;
+    }
+    .title h1{
+        font-size: 48px;
+    }
+    .title span{
+        font-size: 18px;
+    }
+    .apresSkills{
+        color: #FFF;
+        font-size: 14px;
+        text-align: center;
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        font-family: 'Lexend', sans-serif;
+        line-height: 24px;
+    }
+    .menu li{
+        margin-right: 0;
+    }
+    .resetar{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .logos-skills{
+        flex-direction: column;
+        width: 200px;
+    }
+    .skills img{
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .logos-skills img{
+        margin-bottom: 30px;
+    }
+    .logos-skills button{
+        width: 200px;
+    }
+    .frase{
+        display: none;
+    }
+    .redesSociais{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .redesSociaismob{
+        display: block;
+        margin: 0 auto;
+
+    }
+    .resumo{
+        display: flex;
+        margin-top: 85px;
+    }
+    .resumo img{
+        border-radius: 300px;
+        width: 250px;
+        height: 350px;
+        margin-left: 50px;
+        display: none;
+    }
+    .resumo p{
+        color: #FFF;
+        font-size: 14px;
+        line-height: 24px;
+        width: 90%;
+        flex: row;
+        margin-left: 20px;
+        font-family: 'Lexend', sans-serif
+    }
+    .experiencias{
+        margin-top: 100px;
+    }
+    .experiencias span{
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        display: block;
+    }
+    .linha{
+        width: 85%;
+        height: 9px;
+        background-color: #000120 ;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .experiencias h2{
+        color: #FFF;
+        font-family: 'Lexend', sans-serif;
+        text-align: center;
+        font-size: 42px;
+        text-transform: uppercase;
+    }
+    .espacoSistemas{
+        display: block;
+    }
+    .espacoSistemas p{
+        width: 70%;
+        color: #FFF;
+        font-family: 'Lexend', sans-serif;
+        margin-left: 0;
+        display: block;
+    }
+    .espaco{
+        width: 300px;
+        height: 150px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .urb9{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .urb9 p{
+        width: 70%;
+        color: #FFF;
+        font-family: 'Lexend', sans-serif;
+        margin-left: 0;
+    }
+    .logoUrb9{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .urb9 ul{
+        padding-left: 0;
+    }
+    .redesSociaismob a{
+        margin-right: 25px;
+    }
+
+}
+
+
