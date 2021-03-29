@@ -64,26 +64,26 @@ export const Skills = () =>(
 
         <div className="skills">
             <div className="logos-skills">
-                <ModalLink><img src={html} /></ModalLink>
-                <ModalLinkCss><img src={css} /></ModalLinkCss>
-                <ModalLinkJs><img src={js} /></ModalLinkJs>
+                <ModalLink><img src={html} alt="HTML"/></ModalLink>
+                <ModalLinkCss><img src={css} alt="CSS"/></ModalLinkCss>
+                <ModalLinkJs><img src={js} alt="Javascript"/></ModalLinkJs>
             </div>
 
             <div className="logos-skills">
-                <ModalLinkBootstratp><img src={bootstrap} /></ModalLinkBootstratp>
-                <ModalLinkSass><img src={sass} /></ModalLinkSass>
+                <ModalLinkBootstratp><img src={bootstrap} alt="Bootstrap"/></ModalLinkBootstratp>
+                <ModalLinkSass><img src={sass} alt="Sass"/></ModalLinkSass>
             </div>
 
             <div className="logos-skills">
-                <ModalLinkjQuery><img src={jquery} /></ModalLinkjQuery>
-                <ModalLinkReact><img src={react} /></ModalLinkReact>
-                <ModalLinkVue><img src={vuejs} /></ModalLinkVue>
+                <ModalLinkjQuery><img src={jquery} alt="jQuery"/></ModalLinkjQuery>
+                <ModalLinkReact><img src={react} alt="React"/></ModalLinkReact>
+                <ModalLinkVue><img src={vuejs} alt="VueJS"/></ModalLinkVue>
             </div>
 
             <div className="logos-skills">
-                <ModalLinkPhp><img src={php} /></ModalLinkPhp>
-                <ModalLinkCode><img src={codeigniter} /></ModalLinkCode>
-                <ModalLinkMySql><img src={mysql} /></ModalLinkMySql>
+                <ModalLinkPhp><img src={php} alt="PHP"/></ModalLinkPhp>
+                <ModalLinkCode><img src={codeigniter} alt="Codeigniter"/></ModalLinkCode>
+                <ModalLinkMySql><img src={mysql} alt="MySQL"/></ModalLinkMySql>
             </div>
         </div>
 
@@ -91,12 +91,12 @@ export const Skills = () =>(
             <h2>Metodologias Ageis:</h2>
             <span>Possuo experiencia de 2 anos com metodologias ageis Scrum e Kanban
                 com o auxlio das seguintes plantaformas;
-                <div className="ferramentasageis"><img src={slack} /> <img src={trello} /> <img src={jira} /> </div>
+                <div className="ferramentasageis"><img src={slack} alt="Slack"/> <img src={trello} alt="Trello"/> <img src={jira} alt="JIRA"/> </div>
             </span>
             <h2>Outras ferramentas:</h2>
             <span>
                 Algumas ferramentas que eu já usei para acompanhar o comportamento do usuarios e como auxilio em tomadas de decisões para proximas spints.
-                <div className="ferramentasageis"><img src={gan} /> <img src={hotjar} /></div>
+                <div className="ferramentasageis"><img src={gan} alt="Google Analytics"/> <img src={hotjar} alt="Hotjar"/></div>
             </span>
         </div>
     </div>
