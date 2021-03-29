@@ -18,8 +18,8 @@ import reactgif from './gifs/react.gif'
 import vuegif from './gifs/vue.gif'
 import phpgif from './gifs/php.gif'
 
-import react, { useState} from 'react';
-import { Modal , Modalheader , ModalBody , ModalFooter , Button, ModalHeader } from 'reactstrap';
+import { useState } from 'react';
+import { Modal , ModalBody , ModalFooter , Button, ModalHeader } from 'reactstrap';
 
 
 const ModalLink = () => {
