@@ -96,9 +96,8 @@ export const Home = () =>(
             <div className="espacoSistemas">
             <img className="espaco" src={espaco}/>
                 <p><span>Junho de 2018 à Maior de 2019 </span><br />
-                Fui responsável pela migração do sistema web da empresa feito em Delphi para a plataforma Web e também fui responsável por toda criação e manutenção do site na época.
-                Utilizei constantemente HTML, CSS e Javascript Vanilla e também em alguns momentos do projeto utilizei jQuery para criação de micro interações e bootstrap ou flexbox para ajudar no responsivo do sistema.
-                Trouxe para a equipe o que é versionamento de código e fiz uma apresentação sobre o Git e como usá-lo e então a partir desde momento a empresa começou a utilizar versionamento Git.</p>
+                Fui responsável pela migração do sistema web da empresa feito em Delphi para a plataforma Web, além da criação e manutenção do site na época. Utilizei HTML, CSS e Javascript Vanilla e jQuery para criação de micro interações, bootstrap ou flexbox. Com objetivo de ajudar no responsivo do sistema. 
+Empreguei na equipe o que é versionamento de código e realizei palestras na equipe sobre o funcionamento e aplicabilidade do Git. Diante do exposto a empresa começou a utilizar versionamento Git.</p>
             </div>
             
         </div>
