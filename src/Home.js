@@ -73,7 +73,7 @@ export const Home = () =>(
             <div className="linha"></div>
 
             <div className="urb9">
-                <img className="logoUrb9" src={urb9} />
+                <img className="logoUrb9" src={urb9} alt="URB9" />
                 <p><span>Maio de 2019 à Março de 2021 </span><br />
                 Trabalhei em todo desenvolvimento desde o seu início até seu estado atual de uma plataforma digital web para vendas, visitas, compras, negociação e gestão de imóveis, que atende comprador, vendedor, corretor, backoffice e gestor, utilizando metodologias ágeis como Scrum e Kanban. Além de utilizações de programas como Jira, Slack e Trello.
                 Na plataforma foi criado um sistema para gerenciamento de visitas, cadastro, negociações, chats, documentação e edição de imóveis, além de um desenvolvimento de um painel multiusuário, disparos de e-mail de acordo com a situação e ação de cada usuário no sistema.
@@ -94,10 +94,11 @@ export const Home = () =>(
             <div className="linha"></div>
 
             <div className="espacoSistemas">
-            <img className="espaco" src={espaco}/>
+            <img className="espaco" src={espaco} alt="Espaço Sistemas"/>
                 <p><span>Junho de 2018 à Maior de 2019 </span><br />
-                Fui responsável pela migração do sistema web da empresa feito em Delphi para a plataforma Web, além da criação e manutenção do site na época. Utilizei HTML, CSS e Javascript Vanilla e jQuery para criação de micro interações, bootstrap ou flexbox. Com objetivo de ajudar no responsivo do sistema. 
-Empreguei na equipe o que é versionamento de código e realizei palestras na equipe sobre o funcionamento e aplicabilidade do Git. Diante do exposto a empresa começou a utilizar versionamento Git.</p>
+                    Fui responsável pela migração do sistema web da empresa feito em Delphi para a plataforma Web, além da criação e manutenção do site na época. Utilizei HTML, CSS e Javascript Vanilla e jQuery para criação de micro interações, bootstrap ou flexbox. Com objetivo de ajudar no responsivo do sistema. 
+                    Empreguei na equipe o que é versionamento de código e realizei palestras na equipe sobre o funcionamento e aplicabilidade do Git. Diante do exposto a empresa começou a utilizar versionamento Git.
+                </p>
             </div>
             
         </div>
