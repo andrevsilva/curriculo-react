@@ -99,6 +99,27 @@ export const Skills = () =>(
                 <div className="ferramentasageis"><img src={gan} alt="Google Analytics"/> <img src={hotjar} alt="Hotjar"/></div>
             </span>
         </div>
+
+        <div className="footer">
+            <div class="redesSociaismob">
+                <SocialIcon url="https://www.linkedin.com/in/andré-silva-5b054a15b/" fgColor="#FFF" />
+                <SocialIcon url="https://www.facebook.com/profile.php?id=100010185733199" fgColor="#FFF" />
+                <SocialIcon url="https://github.com" fgColor="#FFF" />
+                <SocialIcon url="https://api.whatsapp.com/send?phone=5521982501010" fgColor="" />
+            </div>
+            <div className="info">
+                <span className="celular">Celular: (21) 98250-1010</span>
+                <span className="email">E-mail: andrevinicius.silva94@gmail.com</span>
+                <span className="contratacao">Estou disponivel para novas oportunidades
+                Contrtações CLT ou PJ</span>
+            </div>
+            <div className="frase">
+                <span>"Aprenda a se adaptar melhor aos problemas da vida, torne seu mundo mais responsivo ..."</span>
+            </div>
+        </div>
+        <div className="feitopor">
+            <small>Feito por AndréS - Web Developer ©2021.</small>
+        </div>
     </div>
     
 )
