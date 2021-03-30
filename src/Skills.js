@@ -45,7 +45,7 @@ export const Skills = () =>(
         <div class="redesSociais">
             <SocialIcon url="https://www.linkedin.com/in/andré-silva-5b054a15b/" fgColor="#FFF" />
             <SocialIcon url="https://www.facebook.com/profile.php?id=100010185733199" fgColor="#FFF" />
-            <SocialIcon url="https://github.com" fgColor="#FFF" />
+            <SocialIcon url="https://github.com/andrevsilva" fgColor="#FFF" />
             <SocialIcon url="https://api.whatsapp.com/send?phone=5521982501010" fgColor="" />
         </div>
 
